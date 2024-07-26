@@ -18,7 +18,7 @@ function DataFetching() {
             setPost(res.data)
         })
         .catch(err => {
-            console.log(err)
+            console.log(err) 
         })
     }, [idFromButtonClick])
 
