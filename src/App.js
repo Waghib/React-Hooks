@@ -1,11 +1,13 @@
 import './App.css';
 import React from 'react';
-import CounterOne from './components/CounterOne';
+// import CounterOne from './components/CounterOne';
+import CounterTwo from './components/CounterTwo';
 
 function App() {
   return (
     <div className="App">
-      <CounterOne />
+      {/* <CounterOne /> */}
+      <CounterTwo />
     </div>
   );
 }
