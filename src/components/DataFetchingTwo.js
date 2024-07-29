@@ -49,3 +49,10 @@ function DataFetchingTwo() {
 }
 
 export default DataFetchingTwo
+
+// useState vs useReducer
+// types of state: useState is fine for independent pieces of state, useReducer is better for state objects
+// number of state transitions: useState triggers re-render on every state transition, useReducer doesn't
+// related state transitions: useState doesn't support related state transitions, useReducer does
+// business logic: useState doesn't support complex business logic, useReducer does
+// local vs global: useState is fine for local state, but useReducer is better for global state
