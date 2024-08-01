@@ -6,7 +6,7 @@ function FocusInput() {
 
     useEffect(() => {
         // focus the input element
-        inputRef.current.focus()
+        inputRef.current.focus() 
     }, [])
 
 
