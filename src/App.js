@@ -1,17 +1,25 @@
 import './App.css';
 import React from 'react';
-import ClassTimer from './components/ClassTimer';
-import HookTimer from './components/HookTimer';
-
+import DocTitleOne from './components/DocTitleOne';
+import DocTitleTwo from './components/DocTitleTwo';
 
 
 function App() {
   return (
     <div className='App'>
-      <ClassTimer />
-      <HookTimer />
+      <DocTitleOne />
+      <DocTitleTwo />
     </div>
   );
 }
 
 export default App;
+
+// Hooks so far
+// useState
+// useEffect
+// useContext
+// useReducer
+// useRef
+// useMemo
+// useCallback
